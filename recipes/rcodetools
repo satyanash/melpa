@@ -1,0 +1,17 @@
+;;; rcodetools --- package to interface with rcodetools executables
+;;; Homepag
+
+;;; Commentary:
+;; Packages over the `misc/rcodetools.el` which provides elisp functions
+;; to interface with the rcodetools executables like `xmpfilter` etc
+
+;;; Code:
+
+(rcodetools
+ :fetcher github
+ :repo "rcodetools/rcodetools"
+ :files ("misc/rcodetools.el" "misc/README.emacs"))
+
+(provide 'rcodetools)
+
+;;; rcodetools ends here
